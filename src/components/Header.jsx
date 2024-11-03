@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <Fade>
             <div className='mx-2 lg:mx-33 py-10 xl:py-5'>
-                <h1 className='text-center text-2xl md:text-3xl lg:text-7xl font-semibold text-white mt-16'>Hi, I'm Yash Kumar Jha, <br /> <span className="lg:text-4xl px-2  bg-gradient-to-r from-[#312e81] to-[#6366f1] text-white rounded"
+                <h1 className='text-center text-2xl md:text-3xl lg:text-7xl font-semibold text-white mt-16'>Hi, I'm Yash Kumar Jha, <br /> <span className="lg:text-3xl px-2  bg-gradient-to-r from-[#312e81] to-[#6366f1] text-white rounded"
                 >
                     Full Stack Developer
                 </span>

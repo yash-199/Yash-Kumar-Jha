@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Drawer */}
-            <div className={`fixed top-0 left-0 h-full w-3/4 bg-gray-900 text-white transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:hidden`}>
+            <div className={`fixed top-0 left-0 h-full w-3/4  text-white transform z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:hidden`}>
                 <ul className='flex flex-col items-start gap-5 p-6 font-semibold uppercase'>
                     <NavLink to='/' className={({ isActive }) => isActive ? 'active' : ''} onClick={toggleMenu}>
                         <li className='py-2'>Home</li>
